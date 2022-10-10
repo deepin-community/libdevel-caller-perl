@@ -1,0 +1,16 @@
+Description: spelling error
+Author: Xavier Guimard <x.guimard@free.fr>
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=126949
+Last-Update: 2018-08-26
+
+--- a/lib/Devel/Caller.pm
++++ b/lib/Devel/Caller.pm
+@@ -229,7 +229,7 @@
+ All of these routines are susceptible to the same limitations as
+ C<caller> as described in L<perlfunc/caller>
+ 
+-The deparsing of the optree perfomed by called_with is fairly simple-minded
++The deparsing of the optree performed by called_with is fairly simple-minded
+ and so a bit flaky.
+ 
+ =over
